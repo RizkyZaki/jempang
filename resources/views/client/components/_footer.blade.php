@@ -35,32 +35,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-7 ml-auto">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <div class="footer_widget">
-                                <h4 class="widget_title">Tentang</h4>
-                                <ul class="footer-menu">
-                                    <li><a href="https://v2.ppid.purwakartakab.go.id/profile/about-us">Tentang Kami</a>
-                                    </li>
-                                    <li><a href="https://v2.ppid.purwakartakab.go.id/contact-us">Kontak Kami</a></li>
-                                    <li><a href="https://v2.ppid.purwakartakab.go.id/organizations">Struktur
-                                            Organisasi</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="footer_widget">
-                                <h4 class="widget_title">Informasi</h4>
-                                <ul class="footer-menu">
-                                    <li><a href="https://v2.ppid.purwakartakab.go.id/news">Berita</a></li>
-                                    <li><a href="https://v2.ppid.purwakartakab.go.id/regulations">Regulasi</a></li>
-                                    <li><a href="https://v2.ppid.purwakartakab.go.id/statistics">Statistik</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
@@ -69,7 +44,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12 col-md-12 text-center">
-                    <p class="mb-0 text-light">© 2024 PPID Kabupaten Purwakarta.</p>
+                    <p class="mb-0 text-light">© 2024 Jempang</p>
                 </div>
             </div>
         </div>
