@@ -77,7 +77,7 @@
                         <!-- Display replies -->
                         @foreach ($comment->replies as $reply)
                             <div class="reply" style="margin-left: 20px; padding-left: 10px; border-left: 2px solid #ddd;">
-                                <p><strong>{{ $reply->user->name }}</strong> Membalas:</p>
+                                <p><strong>{{ $reply->user }}</strong> Membalas:</p>
                                 <p>{{ $reply->comment }}</p>
                             </div>
                         @endforeach
