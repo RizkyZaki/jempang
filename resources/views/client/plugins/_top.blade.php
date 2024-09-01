@@ -12,3 +12,4 @@
 <link rel="preconnect" href="https://fonts.bunny.net" crossorigin>
 
 <link rel="stylesheet" href="{{ asset('client/css/styles.css') }}">
+<link rel="stylesheet" href="{{ asset('client/css/custom.css') }}">
