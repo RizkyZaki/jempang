@@ -22,13 +22,12 @@
         <div class="container">
             <div class="row">
                 @foreach ($news as $item)
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 scroll">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div class="crs_grid">
                             <div class="crs_grid_thumb">
                                 <a href="{{ url('news/' . $item->slug) }}" class="crs_detail_link">
                                     <img src="{{ asset('storage/assets/attach/' . $item->image) }}"
-                                        class="img-cover rounded"
-                                        alt="Perkuat Iklim Usaha Dan Perlindungan Konsumen, Purwakarta Uji Tera Ribuan Alat Ukur Perdagangan">
+                                        class="img-cover rounded" />
                                 </a>
                             </div>
                             <div class="crs_grid_caption">
@@ -36,10 +35,13 @@
                                     <div class="crs_fl_first">
                                         <div class="crs_cates cl_8"><span>Berita</span></div>
                                     </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_inrolled"><strong>{{ $item->comments->count() }}</strong>Komentar
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="crs_title">
-                                    <h4><a title="Perkuat Iklim Usaha Dan Perlindungan Konsumen, Purwakarta Uji Tera Ribuan Alat Ukur Perdagangan"
-                                            href="{{ url('news/' . $item->slug) }}"
+                                    <h4><a href="{{ url('news/' . $item->slug) }}"
                                             class="crs_title_link overflow">{{ $item->name }}</a></h4>
                                 </div>
                                 <div class="crs_info_detail">
