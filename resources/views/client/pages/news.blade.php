@@ -25,31 +25,31 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div class="crs_grid">
                             <div class="crs_grid_thumb">
-                                <a href="https://www.youtube.com/watch?v=69BninGgjaA&ab_channel=PurwakartaGaluhpakuanTV"
-                                    target="_blank" class="crs_detail_link">
-                                    <img src="https://img.youtube.com/vi/69BninGgjaA/hqdefault.jpg"
-                                        class="img-fluid rounded image-full"
-                                        alt="PERTAHANKAN ANGKA PERTUMBUHAN PENDUDUK, KB UNTUK PRIA DIGALAKAN">
+                                <a href="https://ppid.purwakartakab.go.id/read/program-sikomandan-purwakarta-tingkatkan-populasi-ribuan-ekor-ternak"
+                                    class="crs_detail_link">
+                                    <img src="https://ppid.purwakartakab.go.id/assets/upload/images/berita/91037ceffbbd37adf66785cb06a5f98a.jpg"
+                                        class="img-cover rounded"
+                                        alt="Program SIKOMANDAN Purwakarta Tingkatkan Populasi Ribuan Ekor Ternak">
                                 </a>
                             </div>
                             <div class="crs_grid_caption">
                                 <div class="crs_flex">
                                     <div class="crs_fl_first">
-                                        <div class="crs_cates cl_8"><span>Video</span></div>
+                                        <div class="crs_cates cl_8"><span>Berita</span></div>
                                     </div>
                                     <div class="crs_fl_last">
-                                        <div class="crs_inrolled"><strong>0</strong>Melihat</div>
+                                        <div class="crs_inrolled"><strong>62</strong>Membaca</div>
                                     </div>
                                 </div>
                                 <div class="crs_title">
-                                    <h4><a title="PERTAHANKAN ANGKA PERTUMBUHAN PENDUDUK, KB UNTUK PRIA DIGALAKAN"
-                                            href="https://www.youtube.com/watch?v=69BninGgjaA&ab_channel=PurwakartaGaluhpakuanTV"
-                                            target="_blank" class="crs_title_link overflow">PERTAHANKAN ANGKA PERTUMBUHAN
-                                            PENDUDUK, KB UNTUK PRIA DIGALAKAN</a></h4>
+                                    <h4><a title="Program SIKOMANDAN Purwakarta Tingkatkan Populasi Ribuan Ekor Ternak"
+                                            href="https://ppid.purwakartakab.go.id/read/program-sikomandan-purwakarta-tingkatkan-populasi-ribuan-ekor-ternak"
+                                            class="crs_title_link overflow">Program SIKOMANDAN Purwakarta Tingkatkan
+                                            Populasi Ribuan Ekor Ternak</a></h4>
                                 </div>
                                 <div class="crs_info_detail">
                                     <ul>
-                                        <li><i class="fa fa-clock text-danger"></i><span>15 Maret 2021 09:04</span></li>
+                                        <li><i class="fa fa-clock text-danger"></i><span>16 Agustus 2024 10:08</span></li>
                                     </ul>
                                 </div>
                             </div>
