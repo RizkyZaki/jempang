@@ -43,7 +43,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row">
                 @foreach ($news as $item)
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div class="crs_grid">
