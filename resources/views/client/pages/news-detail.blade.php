@@ -39,7 +39,7 @@
                     @csrf
                     <div class="form-group mb-">
                         <label>Nama</label>
-                        <input type="text" name="user" placeholder="Subjek" class="form-control">
+                        <input type="text" name="user" placeholder="Nama" class="form-control">
                     </div>
                     <div class="form-group">
                         <textarea name="comment" class="form-control" rows="4" placeholder="Add a comment"></textarea>
@@ -65,7 +65,7 @@
                             @csrf
                             <div class="form-group mb-">
                                 <label>Nama</label>
-                                <input type="text" name="user" placeholder="Subjek" class="form-control">
+                                <input type="text" name="user" placeholder="Nama" class="form-control">
                             </div>
                             <div class="form-group">
                                 <textarea name="comment" class="form-control" rows="2" placeholder="Reply to this comment"></textarea>
