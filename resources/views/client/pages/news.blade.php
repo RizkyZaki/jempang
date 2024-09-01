@@ -28,7 +28,7 @@
                                 <a href="https://ppid.purwakartakab.go.id/read/program-sikomandan-purwakarta-tingkatkan-populasi-ribuan-ekor-ternak"
                                     class="crs_detail_link">
                                     <img src="https://ppid.purwakartakab.go.id/assets/upload/images/berita/91037ceffbbd37adf66785cb06a5f98a.jpg"
-                                        class="img-cover rounded"
+                                        class="img-cover rounded image-full"
                                         alt="Program SIKOMANDAN Purwakarta Tingkatkan Populasi Ribuan Ekor Ternak">
                                 </a>
                             </div>
