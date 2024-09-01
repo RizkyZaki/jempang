@@ -35,44 +35,44 @@
             <div class="comment-section">
                 <h4>Comments</h4>
 
-                <!-- Form for adding new comment -->
-                @auth
-                    <form action="{{ route('comments.store') }}" method="POST">
-                        @csrf
-                        <div class="form-group">
-                            <textarea name="comment" class="form-control" rows="4" placeholder="Add a comment"></textarea>
-                            <input type="hidden" name="news_id" value="{{ $data->id }}">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                @else
-                    <p>Mohon <a href="{{ route('login') }}">Login</a> Untuk komentar.</p>
-                @endauth
+                <form action="{{ route('comments.store') }}" method="POST">
+                    @csrf
+                    <div class="form-group mb-">
+                        <label>Nama</label>
+                        <input type="text" name="user" placeholder="Subjek" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="comment" class="form-control" rows="4" placeholder="Add a comment"></textarea>
+                        <input type="hidden" name="news_id" value="{{ $data->id }}">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
 
-                <!-- Display comments and replies -->
                 @foreach ($data->comments->where('parent_id', null) as $comment)
                     <div class="comment">
-                        <p><strong>{{ $comment->user->name }}</strong> :</p>
+                        <p><strong>{{ $comment->user }}</strong> :</p>
                         <p>{{ $comment->comment }}</p>
 
                         <!-- Button to toggle reply form -->
-                        @auth
-                            <a class="text-success mb-1 btn-sm reply-button" style="cursor: pointer"
-                                data-toggle="reply-form-{{ $comment->id }}">
-                                Balas
-                            </a>
+                        <a class="text-success mb-1 btn-sm reply-button" style="cursor: pointer"
+                            data-toggle="reply-form-{{ $comment->id }}">
+                            Balas
+                        </a>
 
-                            <!-- Form for replying to a comment -->
-                            <form action="{{ route('comments.reply', $comment->id) }}" method="POST" class="reply-form"
-                                id="reply-form-{{ $comment->id }}" style="display: none; margin-left: 20px;">
-                                @csrf
-                                <div class="form-group">
-                                    <textarea name="comment" class="form-control" rows="2" placeholder="Reply to this comment"></textarea>
-                                    <input type="hidden" name="news_id" value="{{ $data->id }}">
-                                </div>
-                                <button type="submit" class="btn btn-secondary btn-sm">Submit</button>
-                            </form>
-                        @endauth
+                        <!-- Form for replying to a comment -->
+                        <form action="{{ route('comments.reply', $comment->id) }}" method="POST" class="reply-form"
+                            id="reply-form-{{ $comment->id }}" style="display: none; margin-left: 20px;">
+                            @csrf
+                            <div class="form-group mb-">
+                                <label>Nama</label>
+                                <input type="text" name="user" placeholder="Subjek" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="comment" class="form-control" rows="2" placeholder="Reply to this comment"></textarea>
+                                <input type="hidden" name="news_id" value="{{ $data->id }}">
+                            </div>
+                            <button type="submit" class="btn btn-secondary btn-sm">Submit</button>
+                        </form>
 
                         <!-- Display replies -->
                         @foreach ($comment->replies as $reply)

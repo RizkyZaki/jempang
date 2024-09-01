@@ -8,26 +8,21 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Comments extends Model
 {
-  use HasFactory, SoftDeletes;
-  protected $table = 'comments';
-  protected $guarded = ['id'];
-  public function replies()
-  {
-    return $this->hasMany(Comments::class, 'parent_id');
-  }
+    use HasFactory, SoftDeletes;
+    protected $table = 'comments';
+    protected $guarded = ['id'];
+    public function replies()
+    {
+        return $this->hasMany(Comments::class, 'parent_id');
+    }
 
-  public function parent()
-  {
-    return $this->belongsTo(Comments::class, 'parent_id');
-  }
+    public function parent()
+    {
+        return $this->belongsTo(Comments::class, 'parent_id');
+    }
 
-  public function news()
-  {
-    return $this->belongsTo(News::class);
-  }
-
-  public function user()
-  {
-    return $this->belongsTo(User::class);
-  }
+    public function news()
+    {
+        return $this->belongsTo(News::class);
+    }
 }
