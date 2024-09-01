@@ -38,12 +38,12 @@
                     <li class="nk-menu-heading">
                         <h6 class="overline-title text-dark-alt">Publikasi</h6>
                     </li><!-- .nk-menu-item -->
-                    <li class="nk-menu-item">
+                    {{-- <li class="nk-menu-item">
                         <a href="{{ url('dashboard/slider') }}" class="nk-menu-link">
                             <span class="nk-menu-icon"><em class="icon ni ni-tags"></em></span>
                             <span class="nk-menu-text">Slider</span>
                         </a>
-                    </li>
+                    </li> --}}
                     <li class="nk-menu-item">
                         <a href="{{ url('dashboard/news') }}" class="nk-menu-link">
                             <span class="nk-menu-icon"><em class="icon ni ni-book"></em></span>
